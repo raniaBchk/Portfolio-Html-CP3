@@ -4,9 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="logo">
+        <h1>Bouchouika Rania</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <section id="about">
+        <h1>About me </h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et vel, deleniti expedita nemo aperiam quos mollitia cum eum dolore. Itaque, fuga consequatur. Repellat asperiores nam, perspiciatis numquam voluptates odit ducimus!</p>
+        <img src="account.png" alt="photo de profil indisponible" >
+    </section>
+
+    <section id="works">
+        <h1>My works  </h1>
+        <p>Présentation de mes dernières expériences.   </p>
+        <div class="work">
+            <h3>Développeur web Full-Stack</h3>
+            <h5>Motion4Ever, à Carquefou</h5>
+            <p>Développement Front-Back HTML/ CSS/ Jquery/ JS. Développement des différents CMS : Prestashop, Magento, Drupal et WordPress</p>
+        </div>
+
+        <div class="work">
+            <h3>Développeur web Full-Stack</h3>
+            <h5>Motion4Ever, à Carquefou</h5>
+            <p>Développement Front-Back HTML/ CSS/ Jquery/ JS. Développement des différents CMS : Prestashop, Magento, Drupal et WordPress</p>
+        </div>
+
+        <div class="work">
+            <h3>Développeur web Full-Stack</h3>
+            <h5>Motion4Ever, à Carquefou</h5>
+            <p>Développement Front-Back HTML/ CSS/ Jquery/ JS. Développement des différents CMS : Prestashop, Magento, Drupal et WordPress</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h1>My resume  </h1>
+        <p>Voici mon parcours depuis mes débuts en développement web.</p>
+        <audio controls="controls">
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mp3">
+          Votre navigateur ne supporte pas la balise audio
+        </audio>
+        <iframe width="1264" height="480" src="https://www.youtube.com/embed/5oHVIuNPtGg" title="Comment rédiger un CV efficace ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="contact">
+        <h1>Contact </h1>
+        <p>N'hesitez pas a me contacter </p>
+
+        <form action="" class="form">
+            <div>
+                <label for="name">Nom et prenom :</label>
+                <input type="text" id="name" name="name" class="input-text">
+            </div>
+         
+
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" class="input-text">
+            </div>
+       
+
+            <div>
+                <label for="message">Message :</label>
+                <textarea name="message" id="message" cols="40" rows="10" class="text-area"></textarea>
+            </div>
+        
+
+            <input type="submit" value="Send" class="input-button submit ">
+        </form>
+    </section>
+
+    <footer>
+        <p> Copyright © BOUCHOUIKA Rania 2022 </p>
+    </footer>
 </body>
 </html>
